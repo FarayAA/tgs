@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/logo_udb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="UTS Pemograman Mobile"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edinim"
+        style="@style/ThemeEditText"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="30dp"
+        android:hint="NIM"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edinama"
+        style="@style/ThemeEditText1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="30dp"
+        android:hint="Nama"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edikelas"
+        style="@style/ThemeEditText2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="30dp"
+        android:hint="Kelas"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/ediemail"
+        style="@style/ThemeEditText3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="30dp"
+        android:hint="Email"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Kirim"
+        android:textSize="8pt" />
+
+
+</RelativeLayout>
